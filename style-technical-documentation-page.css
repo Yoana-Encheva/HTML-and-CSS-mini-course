@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Antic&display=swap");
+
+html,
+body {
+  min-width: 290px;
+  color: #1d3557;
+  background-color: lightcyan;
+  font-family: "Antic", sans-serif;
+  line-height: 1.5;
+}
+
+#navbar {
+  position: fixed;
+  min-width: 290px;
+  top: 0px;
+  left: 0px;
+  width: 300px;
+  height: 100%;
+  border-right: solid;
+  border-color: rgba(0, 22, 22, 0.4);
+}
+
+header {
+  color: black;
+  margin: 10px;
+  text-align: center;
+  font-size: 1.8em;
+  font-weight: thin;
+}
+
+#main-doc header {
+  text-align: left;
+  margin: 0px;
+}
+
+#main-doc {
+  position: absolute;
+  margin-left: 310px;
+  padding: 20px;
+  margin-bottom: 110px;
+}
+
+nav ul {
+  padding-left: 0px;
+}
+
+nav ul li {
+  list-style: none;
+  padding: 10px 35px;
+  border-top: #1d3557 1px solid;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #1d3557;
+}
+
+nav ul li a:hover {
+  color: black;
+  font-style: oblique;
+}
+
+section article {
+  margin: 15px;
+  font-size: 0.96em;
+}
+
+section li {
+  margin: 15px 0px 0px 20px;
+}
+
+code {
+  display: block;
+  text-align: left;
+  white-space: pre;
+  position: relative;
+  word-break: normal;
+  word-wrap: normal;
+  line-height: 2;
+  background-color: black;
+  color: white;
+  padding: 15px;
+  margin: 10px;
+  border-radius: 5px;
+}
